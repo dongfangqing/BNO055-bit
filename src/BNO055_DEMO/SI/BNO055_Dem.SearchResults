@@ -1,0 +1,28 @@
+---- cmd_fail Matches (27 in 2 files) ----
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055)://			goto cmd_fail;//写器件超时
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055)://			goto cmd_fail;	//器件无应答
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055)://				goto cmd_fail;	//器件无应答
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055)://cmd_fail:
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055):////	printf("write cmd_fail\r\n");
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055):			goto cmd_fail;	
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055):				goto cmd_fail;	
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055):cmd_fail:
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055)://	printf("write cmd_fail\r\n");
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055)://		goto cmd_fail;	//器件无应答
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055)://		goto cmd_fail;	//器件无应答
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055)://		goto cmd_fail;	//器件无应答
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055)://cmd_fail:
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055)://	printf(" read cmd_fail\r\n");
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055):		goto cmd_fail;
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055):		goto cmd_fail;	
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055):		goto cmd_fail;	
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055):cmd_fail:
+Bno055_support.c (c:\users\administrator\desktop\bno055_demo\user\bno055):	printf("read cmd_fail%d\r\n",num);
+Eeprom_driver.c (c:\users\administrator\desktop\bno055_demo\user\i2c):		goto cmd_fail;	/* EEPROM器件无应答 */
+Eeprom_driver.c (c:\users\administrator\desktop\bno055_demo\user\i2c):		goto cmd_fail;	/* EEPROM器件无应答 */
+Eeprom_driver.c (c:\users\administrator\desktop\bno055_demo\user\i2c):		goto cmd_fail;	/* EEPROM器件无应答 */
+Eeprom_driver.c (c:\users\administrator\desktop\bno055_demo\user\i2c):cmd_fail: /* 命令执行失败后，切记发送停止信号，避免影响I2C总线上其他设备 */
+Eeprom_driver.c (c:\users\administrator\desktop\bno055_demo\user\i2c):				goto cmd_fail;	/* EEPROM器件写超时 */
+Eeprom_driver.c (c:\users\administrator\desktop\bno055_demo\user\i2c):				goto cmd_fail;	/* EEPROM器件无应答 */
+Eeprom_driver.c (c:\users\administrator\desktop\bno055_demo\user\i2c):			goto cmd_fail;	/* EEPROM器件无应答 */
+Eeprom_driver.c (c:\users\administrator\desktop\bno055_demo\user\i2c):cmd_fail: /* 命令执行失败后，切记发送停止信号，避免影响I2C总线上其他设备 */
